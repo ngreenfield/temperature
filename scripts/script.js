@@ -31,14 +31,16 @@ console.log("Subtraction is: " + subs);
 console.log("Multiplication is: " + mult);
 console.log("Division is: " + div)
 
-const pi= 3.1416
-let r = prompt("Enter the radius")
+const pi= 3.1416;
+let r = 3;  //promt("enter radius")
 let area = (r*r) * pi
 
 console.log("The area of a circle with a radius of " + r + " is: " + area +"cm");
 
 // define the var
 let aVariable;
+
+aVariable=20;
 
 //define and assisting the value at the same time
 let otherVariable = 30;
